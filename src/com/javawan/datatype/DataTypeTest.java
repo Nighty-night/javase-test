@@ -1,12 +1,13 @@
 package com.javawan.datatype;
 
 import java.nio.file.LinkOption;
+import java.util.ArrayList;
 
 /**
  * 八种基本类型：
  *  数据类型：byte，short，int,long,float,double
  *  字符类型：char
- *  布尔类型：boolean
+ *  布尔类型：boolean(1位)
  * 应用类型：class，interface,数组
  */
 public class DataTypeTest {
@@ -30,5 +31,19 @@ public class DataTypeTest {
         //byte b3 = 200; 超过byte/char/short的取值范围，会编译报错
         byte b4 = 100; //未超过取值范围，则自动转型
         System.out.println(b4);
+
+        char c1 = 'a';
+        int i = c1 + 2;
+        System.out.println(i);
+        char c2 = (char)i; //强制转型
+        System.out.println(c2);
+
+        //打印a-z
+        ArrayList list = new ArrayList();
+        for(int j=0; j<26; j++){
+            char c3 = (char)(c1+j);
+            list.add(c3);
+        }
+        System.out.println(list.toString());
     }
 }
