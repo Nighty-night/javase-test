@@ -27,5 +27,8 @@ public class DataTypeTest {
         //long b1 = 12345678987654321; 编译不通过，超出int取值范围 -2^31～2^31-1
         long b2 = 12345678987654321L;
         System.out.println(b2);
+        //byte b3 = 200; 超过byte/char/short的取值范围，会编译报错
+        byte b4 = 100; //未超过取值范围，则自动转型
+        System.out.println(b4);
     }
 }
