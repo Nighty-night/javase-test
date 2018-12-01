@@ -33,8 +33,8 @@ public class TestOperator {
 
         int h = 3*2*2;
         int i = 3<<2; //3*2^2,左移2位等于乘以2两次
-        int j = 12/2/2/2;
-        int k = 12>>3; //12/2^3，右移3位等于除以2三次
+        int j = 16/2/2/2;
+        int k = 16>>3; //12/2^3，右移3位等于除以2三次
         System.out.println(h);
         System.out.println(i);
         System.out.println(j);
