@@ -1,4 +1,4 @@
-package com.javawan;
+package com.javawan.datatype;
 
 import java.util.ArrayList;
 import java.util.BitSet;

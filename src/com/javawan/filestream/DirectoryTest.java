@@ -1,4 +1,4 @@
-package com.javawan;
+package com.javawan.filestream;
 
 import java.io.File;
 
