@@ -1,4 +1,4 @@
-package com.javawan.DesignPatterns;
+package com.javawan.DesignPatterns.singleton;
 
 /**
  * @description： 单例模式
@@ -7,7 +7,7 @@ package com.javawan.DesignPatterns;
  */
 public class Singleton {
 
-//    //1、饿汉模式
+      //1、饿汉模式
       //确保对象实例只有一个。
 //    private static Singleton singleton = new Singleton();
 //    //构造器私有化
@@ -67,6 +67,6 @@ public class Singleton {
      * 当外部内被访问时，并不会加载内部类，所以只要不访问SingletonHoler 这个内部类，
      * private static Singleton singleton = new Singleton() 不会实例化，这就相当于实现懒加载的效果，
      * 只有当SingletonHoler.singleton 被调用时访问内部类的属性，此时才会将对象进行实例化，
-     * 这样既解决了恶汉模式下可能造成资源浪费的问题，也避免了了懒汉模式下的并发问题。
+     * 这样既解决了饿汉模式下可能造成资源浪费的问题，也避免了了懒汉模式下的并发问题。
      */
 }

@@ -1,4 +1,4 @@
-package com.javawan.DesignPatterns;
+package com.javawan.DesignPatterns.singleton;
 
 /**
  * @description：
