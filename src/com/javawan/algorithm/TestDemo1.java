@@ -2,6 +2,11 @@ package com.javawan.algorithm;
 import	java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 门牌号从1开始，小明家左边门牌号的与后边门牌号的和相等
+ * 1000以内，小明家门牌号和最大门牌号的数值对
+ * 有问题
+ */
 public class TestDemo1 {
     public static void main(String[] args) {
         TestDemo1 testDemo = new TestDemo1();
